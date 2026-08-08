@@ -6,7 +6,8 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.enableCors(); // Allow frontend to access the API
   app.useGlobalPipes(new ValidationPipe({ whitelist: true, forbidNonWhitelisted: true }));
-  await app.listen(3001); // Run backend on 3001
+  const port = process.env.PORT || 3001;
+  await app.listen(port); // Run backend on Render's assigned port or 3001 locally
 }
 bootstrap();
 
