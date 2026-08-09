@@ -10,3 +10,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Introduced typed enumerations for task state lifecycle (Pending, In Progress, Completed).
 - Timestamp: `2026-08-09 12:30:45`
 
+### [2026-08-09] refactor(backend): improve config validation logic
+- Enhanced environment variable checks during NestJS bootstrap.
+- Timestamp: `2026-08-09 14:12:10`
+
