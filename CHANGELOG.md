@@ -38,3 +38,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Added guard clauses against malformed query strings.
 - Timestamp: `2026-08-10 13:50:29`
 
+### [2026-08-10] feat(frontend): create task priority badge component
+- Added reusable visual badges with dynamic color codes for Low, Medium, and High priority.
+- Timestamp: `2026-08-10 15:25:44`
+
