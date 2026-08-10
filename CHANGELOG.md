@@ -30,3 +30,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Supported status, priority, and date range filters in task listing endpoint.
 - Timestamp: `2026-08-10 09:40:18`
 
+### [2026-08-10] refactor(tasks): optimize task find-by-status query helper
+- Cleaned up MongoDB query builder logic for improved readability.
+- Timestamp: `2026-08-10 11:15:52`
+
