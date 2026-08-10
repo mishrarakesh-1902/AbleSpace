@@ -26,3 +26,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Updated internal dependencies and resolved TypeScript type definition warnings.
 - Timestamp: `2026-08-09 20:05:40`
 
+### [2026-08-10] feat(backend): implement task filter query parameters
+- Supported status, priority, and date range filters in task listing endpoint.
+- Timestamp: `2026-08-10 09:40:18`
+
