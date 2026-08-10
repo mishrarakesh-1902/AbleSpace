@@ -42,3 +42,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Added reusable visual badges with dynamic color codes for Low, Medium, and High priority.
 - Timestamp: `2026-08-10 15:25:44`
 
+### [2026-08-10] docs: document environment variables in backend env example
+- Clarified MONGODB_URI and JWT_SECRET configuration details in .env documentation.
+- Timestamp: `2026-08-10 17:10:12`
+
