@@ -34,3 +34,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Cleaned up MongoDB query builder logic for improved readability.
 - Timestamp: `2026-08-10 11:15:52`
 
+### [2026-08-10] fix(api): handle null or undefined status in task lookup
+- Added guard clauses against malformed query strings.
+- Timestamp: `2026-08-10 13:50:29`
+
