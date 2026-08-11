@@ -58,3 +58,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Enabled automatic Mongoose timestamps for createdAt and updatedAt tracking.
 - Timestamp: `2026-08-11 11:45:30`
 
+### [2026-08-11] fix(frontend): resolve key prop warning on task list rendering
+- Fixed unique React key assignments across task list iterations.
+- Timestamp: `2026-08-11 14:15:22`
+
