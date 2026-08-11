@@ -50,3 +50,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Implemented smooth CSS micro-interactions on task edit and delete buttons.
 - Timestamp: `2026-08-10 19:35:50`
 
+### [2026-08-11] feat(backend): add payload validation for task update requests
+- Implemented class-validator DTOs for partial task updates.
+- Timestamp: `2026-08-11 10:05:15`
+
