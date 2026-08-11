@@ -66,3 +66,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Integrated instant client-side filtering for task titles and descriptions.
 - Timestamp: `2026-08-11 16:00:48`
 
+### [2026-08-11] perf(backend): add index hints on task user and status fields
+- Optimized MongoDB query indexes to improve read throughput on task queries.
+- Timestamp: `2026-08-11 17:40:10`
+
