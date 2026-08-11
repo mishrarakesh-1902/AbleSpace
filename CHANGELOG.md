@@ -54,3 +54,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Implemented class-validator DTOs for partial task updates.
 - Timestamp: `2026-08-11 10:05:15`
 
+### [2026-08-11] refactor(backend): streamline task schema timestamp handling
+- Enabled automatic Mongoose timestamps for createdAt and updatedAt tracking.
+- Timestamp: `2026-08-11 11:45:30`
+
