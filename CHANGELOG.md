@@ -70,3 +70,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Optimized MongoDB query indexes to improve read throughput on task queries.
 - Timestamp: `2026-08-11 17:40:10`
 
+### [2026-08-11] docs(tasks): add inline JSDoc comments to task service methods
+- Enriched code maintainability with explicit parameter descriptions in TasksService.
+- Timestamp: `2026-08-11 19:50:35`
+
