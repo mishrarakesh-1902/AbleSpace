@@ -94,3 +94,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Standardized ISO-8601 date parsing between frontend input and backend storage.
 - Timestamp: `2026-08-12 17:30:30`
 
+### [2026-08-12] chore(backend): clean up unused imports and obsolete helpers
+- Removed unused legacy imports and formatted backend codebase with ESLint.
+- Timestamp: `2026-08-12 19:15:45`
+
