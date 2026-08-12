@@ -86,3 +86,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Added animated placeholder pulse state while fetching tasks from backend.
 - Timestamp: `2026-08-12 13:40:55`
 
+### [2026-08-12] style(frontend): improve mobile responsive layout for task cards
+- Optimized responsive grid layout and flex wrapping on small screen viewports.
+- Timestamp: `2026-08-12 15:55:12`
+
