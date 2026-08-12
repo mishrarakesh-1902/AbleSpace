@@ -74,3 +74,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Enriched code maintainability with explicit parameter descriptions in TasksService.
 - Timestamp: `2026-08-11 19:50:35`
 
+### [2026-08-12] feat(backend): implement error filter for database exceptions
+- Added NestJS exception filter to format Mongoose validation errors uniformly.
+- Timestamp: `2026-08-12 09:30:40`
+
