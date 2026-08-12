@@ -78,3 +78,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Added NestJS exception filter to format Mongoose validation errors uniformly.
 - Timestamp: `2026-08-12 09:30:40`
 
+### [2026-08-12] refactor(api): centralize HTTP error response formatting
+- Standardized JSON error envelope structure across all controller endpoints.
+- Timestamp: `2026-08-12 11:20:18`
+
