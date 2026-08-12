@@ -90,3 +90,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Optimized responsive grid layout and flex wrapping on small screen viewports.
 - Timestamp: `2026-08-12 15:55:12`
 
+### [2026-08-12] fix(tasks): ensure dueDate formats are parsed consistently
+- Standardized ISO-8601 date parsing between frontend input and backend storage.
+- Timestamp: `2026-08-12 17:30:30`
+
