@@ -98,3 +98,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Removed unused legacy imports and formatted backend codebase with ESLint.
 - Timestamp: `2026-08-12 19:15:45`
 
+### [2026-08-13] feat(frontend): add toast notifications for task create and delete
+- Implemented user feedback toasts on mutation success and failure.
+- Timestamp: `2026-08-13 10:10:20`
+
