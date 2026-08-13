@@ -110,3 +110,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Added disabled button state and loading spinners during asynchronous operations.
 - Timestamp: `2026-08-13 14:25:30`
 
+### [2026-08-13] docs: update setup and local development instructions in README
+- Expanded README with direct MongoDB connection strings and Render troubleshooting.
+- Timestamp: `2026-08-13 16:10:15`
+
