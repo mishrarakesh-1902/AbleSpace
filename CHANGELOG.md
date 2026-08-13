@@ -114,3 +114,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Expanded README with direct MongoDB connection strings and Render troubleshooting.
 - Timestamp: `2026-08-13 16:10:15`
 
+### [2026-08-13] perf(frontend): memoize task list filtering computations
+- Used React useMemo to prevent unnecessary re-filtering on unrelated state updates.
+- Timestamp: `2026-08-13 18:05:40`
+
