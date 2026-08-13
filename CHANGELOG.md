@@ -106,3 +106,7 @@ All notable changes and milestones for the AbleSpace platform.
 - Decoupled TaskItem component from main page to improve modularity.
 - Timestamp: `2026-08-13 12:00:45`
 
+### [2026-08-13] fix(frontend): prevent multiple submissions on rapid click
+- Added disabled button state and loading spinners during asynchronous operations.
+- Timestamp: `2026-08-13 14:25:30`
+
