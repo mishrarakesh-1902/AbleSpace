@@ -1,18 +1,12 @@
 import { Module } from '@nestjs/common';
-import { TypeOrmModule } from '@nestjs/typeorm';
+import { MongooseModule } from '@nestjs/mongoose';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TasksModule } from './tasks/tasks.module';
-import { Task } from './tasks/entities/task.entity';
 
 @Module({
   imports: [
-    TypeOrmModule.forRoot({
-      type: 'sqlite',
-      database: 'database.sqlite',
-      entities: [Task],
-      synchronize: true, // Auto-create tables (good for dev/assessments)
-    }),
+    MongooseModule.forRoot(process.env.MONGODB_URI || 'mongodb://localhost/ablespace'),
     TasksModule,
   ],
   controllers: [AppController],

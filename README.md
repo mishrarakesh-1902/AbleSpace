@@ -12,9 +12,9 @@ A full-stack Task Management System built as part of an assessment. The applicat
 - **HTTP Client:** Axios
 
 ### Backend
-- **Framework:** NestJS
-- **Database:** SQLite
-- **ORM:** TypeORM
+ - **Framework:** NestJS
+ - **Database:** MongoDB
+ - **ODM:** Mongoose
 - **Validation:** `class-validator` and `class-transformer`
 
 ## ✨ Features
@@ -43,12 +43,19 @@ AbleSpace/
 - Node.js (v18 or higher)
 - npm (Node Package Manager)
 
-### 1. Backend Setup (NestJS + SQLite)
+### 1. Backend Setup (NestJS + MongoDB)
 
 Open a terminal and navigate to the `backend` directory:
 
 ```bash
 cd backend
+```
+
+Create a local `.env` (do not commit secrets) or set `MONGODB_URI` in your environment. Example `.env` content:
+
+```text
+# .env (example - DO NOT COMMIT)
+MONGODB_URI="mongodb://localhost/ablespace"
 ```
 
 Install the dependencies:
@@ -57,13 +64,12 @@ Install the dependencies:
 npm install
 ```
 
-Start the backend server in development mode:
+Start the backend server in development mode (ensure `MONGODB_URI` is set):
 
 ```bash
 npm run start:dev
 ```
-*The backend will run on `http://localhost:3001`.*
-*Note: The SQLite database (`database.sqlite`) will be automatically created upon starting the server thanks to TypeORM's `synchronize: true` setting.*
+*The backend will run on `http://localhost:3001` and connect to MongoDB using the `MONGODB_URI` environment variable.*
 
 ### 2. Frontend Setup (Next.js)
 

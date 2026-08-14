@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: ablespace-backend
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: cd backend && npm install && npm run build
+    startCommand: cd backend && npm run start:prod
+    envVars:
+      - key: MONGODB_URI
+        value: "${MONGODB_URI}"
+
+  - type: web
+    name: ablespace-frontend
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: cd frontend && npm install && npm run build
+    startCommand: cd frontend && npm run start
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: "${NEXT_PUBLIC_API_URL}"
