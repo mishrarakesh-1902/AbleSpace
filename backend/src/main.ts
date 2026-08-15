@@ -7,7 +7,13 @@ async function bootstrap() {
   app.enableCors(); // Allow frontend to access the API
   app.useGlobalPipes(new ValidationPipe({ whitelist: true, forbidNonWhitelisted: true }));
   const port = process.env.PORT || 3001;
-  await app.listen(port); // Run backend on Render's assigned port or 3001 locally
+  await app.listen(port);
+  console.log(`✅ Backend server is running on port ${port}`);
+  console.log(`API URL: http://localhost:${port}`);
 }
-bootstrap();
+bootstrap().catch(error => {
+  console.error('❌ Failed to start application:', error);
+  process.exit(1);
+});
+
 
